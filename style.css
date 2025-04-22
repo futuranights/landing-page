@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: #1F2937;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    padding: 16px;
+    font-size: 18px;
+}
+
+.logo{
+    padding: 16px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
