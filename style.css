@@ -135,3 +135,47 @@ a{
     align-items: center;
     justify-self: end;
 }
+
+/* ad */
+
+.ad-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+.ad{
+    background-color:#3382F6;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex: 1;
+    margin: 0 80px;
+    border-radius: 12px;
+}
+.ad-left{
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+.ad-right{
+    display: flex;
+    align-items: center;
+}
+.ad h1,
+.ad p{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.ad button{
+    border-radius: 6px;
+    background-color: #3382F6;
+    border: 3px #F9FAF8 solid;
+    color: #F9FAF8;
+    padding: 8px 16px;
+}
+
+.ad h1{
+    font-size: 24px;
+}
