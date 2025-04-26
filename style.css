@@ -69,7 +69,7 @@ a{
     align-items: flex-start;
     width: 350px;
 }
-button{
+.hero button{
     background-color: #3382F6;
     border-radius: 6px;                 /* rounds the button border */
     padding: 8px 32px;
@@ -91,6 +91,7 @@ button{
     justify-content: center;  
     gap: 52px;
     flex-wrap: wrap;
+    margin-bottom: 80px;
 }
 .square{
     width: 150px;
@@ -104,4 +105,33 @@ button{
     max-width: 150px;
     align-items: center;
     text-align: center;
+}
+
+/* quotation */
+
+.quote-container{
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+}
+.quote h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+.autor p{
+    font-size: 26px;
+    font-family: sans-serif;
+    align-items: center;
+    justify-self: end;
 }
